@@ -17,18 +17,18 @@ function registrationform(email, password, passwordConfirm)
 }
 
 function registration(event) {
-      var email = document.getElementsByClassName("email")[0].value;
-      var pass = document.getElementsByClassName("password")[0].value;
-      var passConfirm = document.getElementsByClassName("passwordConfirm")[0].value;
-      var validateResult = registrationform(email, pass, passConfirm);
-      if (validateResult === true) {
-        alert("Вы зарегистрированы");
-      } else {
-        alert(validateResult);
-        event.preventDefault();
-      }
+  var email = document.getElementsByClassName("email")[0].value;
+  var pass = document.getElementsByClassName("password")[0].value;
+  var passConfirm = document.getElementsByClassName("passwordConfirm")[0].value;
+  var validateResult = registrationform(email, pass, passConfirm);
+  if (validateResult === true) {
+    alert("Вы зарегистрированы");
+  } else {
+    alert(validateResult);
+    event.preventDefault();
+  }
 }
-    
+
 window.onload = function() {
-      document.getElementById('registration').addEventListener('submit', registration);
- }
+  document.getElementById('registration').addEventListener('submit', registration);
+}

@@ -2,43 +2,56 @@ body {
   font: 13px/20px 'Lucida Grande', Tahoma, Verdana;
   color: rgb(0, 0, 0);
   background: rgba(6, 38, 167, 0.61);
-} 
+}
 
 .login {
   position: relative;
   margin: 150px auto 0 auto;
-  padding: 20px 20px 15px; /*отступы*/
-  width: 310px; /*ширина формы заполнения*/
-  background: #FFFFFF; /*цвет фона*/
-  border-radius: 23px; /*закругление формы*/
+  padding: 20px 20px 15px;
+  /*отступы*/
+  width: 310px;
+  /*ширина формы заполнения*/
+  background: #FFFFFF;
+  /*цвет фона*/
+  border-radius: 23px;
+  /*закругление формы*/
 }
 
 .login h1 {
   margin: -20px -20px 20px;
-  line-height: 40px; /*ширина поля для слова*/
-  font-size: 15px; /*размер слова*/
+  line-height: 40px;
+  /*ширина поля для слова*/
+  font-size: 15px;
+  /*размер слова*/
   font-weight: bold;
   color: #555;
   text-align: center;
   background: #f3f3f3;
-  border-bottom: 1px solid #cfcfcf; /* разделяющая линия*/
+  border-bottom: 1px solid #cfcfcf;
+  /* разделяющая линия*/
   border-radius: 3px 3px 0 0;
 }
 
 .login p {
-  margin: 13px 0 0; /* расстояние между строкам */
+  margin: 13px 0 0;
+  /* расстояние между строкам */
 }
 
-.login input[type=text], .login input[type=password] { /*длина строк ввода*/
+.login input[type=text],
+.login input[type=password] {
+  /*длина строк ввода*/
   width: 278px;
 }
 
 input {
-  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif; /* текст внутри полей*/
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  /* текст внутри полей*/
   font-size: 14px;
 }
 
-input[type=text], input[type=password] { /*стиль строк ввода*/
+input[type=text],
+input[type=password] {
+  /*стиль строк ввода*/
   margin: 5px;
   padding: 0 10px;
   width: 200px;
@@ -49,15 +62,21 @@ input[type=text], input[type=password] { /*стиль строк ввода*/
   border-color: #c4c4c4 #d1d1d1 #d4d4d4;
   border-radius: 2px;
   outline: 5px solid #eff4f7;
-} 
+}
 
-input[type=text]:focus, input[type=password]:focus { /*подсветка строк*/ /*focus - подсветка при наведении курсора на поле*/
-  border-color: rgba(18, 52, 247, 0.62); /*цвет рамки*/
-  outline-color: rgba(0, 68, 255, 0.53); /*цвет свечения*/
+input[type=text]:focus,
+input[type=password]:focus {
+  /*подсветка строк*/
+  /*focus - подсветка при наведении курсора на поле*/
+  border-color: rgba(18, 52, 247, 0.62);
+  /*цвет рамки*/
+  outline-color: rgba(0, 68, 255, 0.53);
+  /*цвет свечения*/
   outline-offset: 0;
-} 
+}
 
-input[type=submit] {  /* кнопка Зарегистрировать*/
+input[type=submit] {
+  /* кнопка Зарегистрировать*/
   padding: 0 90px;
   height: 30px;
   font-size: 12px;
